@@ -1,0 +1,219 @@
+.navbar-frame{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 145px;
+    background-color: rgb(68,50,151);
+
+}
+.navbar-frame .container{
+    position: relative;
+    padding: 20px 0px 14px;
+    width: 1320px;
+    height: auto;
+
+    /* background-color: brown; */
+}
+.navbar-frame .container .navbar-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    width: 100%;
+    height: 50px;
+
+    /* background-color: green; */
+}
+.navbar-top .nav-search-frame{
+    width: 651px;
+    height: 50px;
+    border-radius: 6px ;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(255,255,255);
+}
+.nav-search-frame .search-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 17px;
+}
+.search-box .category-list{
+    width: 166px;
+    height: 30px;
+    border-right: 2px solid rgb(214,214,214);
+}
+.category-list select{
+    width: 166px;
+    height: 30px;
+    border: none;
+    outline: none;
+
+    color: rbg(4,30,66);
+    font-family: jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.search-box input{
+    width: 387px;
+    height: 22px;
+    border: none;
+    outline: none;
+    margin-left: 12px;
+
+    color: rgb(98,105,116);
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.nav-search-frame .search-icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 0px 6px 6px 0px;
+    background: rgb(245 195 75);
+}
+.navbar-top .nav-top-menu{
+    display: flex;
+    flex-direction: row;
+    width: 416px;
+    height: 50px;
+    /* background-color: rgb(255, 81, 0); */
+    justify-content: space-between;
+}
+.nav-top-menu .top-menu-box{
+    display: flex;
+    flex-direction: row;
+}
+.top-menu-box .top-icon-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     width: 54px;
+     height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+.top-icon-box img{
+    width: 22px;
+    height: 22px;
+}
+.top-menu-box .top-info-box{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.top-info-box span{
+    color: rgb(255 255 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+.top-info-box strong{
+    color: rgb(255 255 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.top-icon-box .basket-count{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(245 195 75);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Jost;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0%
+}
+.navbar-frame .container .navbar-bottom{
+    margin-top: 20px ;
+    border-top: 1px solid #5747a2;
+
+}
+.navbar-bottom .navbar-bott-menu-box{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.navbar-bottom .browse-box{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid #5747a2;
+}
+.browse-box img{
+    width: 20px;
+    height: 18px;
+}
+.browse-box span{
+    color: rgb(255 255 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 10px;
+
+}
+.navbar-bott-menu-box .navbar-route-menu{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    width: 670px;
+
+}
+.navbar-route-menu a{
+    /* display: flex; */
+
+    margin-right: 10px;
+    color: rgb(255 255 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    /* margin-left: 10px; */
+}
+.navbar-route-menu a.title{
+    color: #f5c34b;
+}
+.sorting-menu span{
+    color: rgb(255 255 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
