@@ -9,3 +9,226 @@ a{
 p{
     margin: 0;
 }
+.container{
+    position: relative;
+    width: 1320px;
+    display: flex;
+    height: auto;
+}
+
+/* NAVBAR */
+
+.navbar-frame{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 145px;
+    background: rgba(68, 50, 151, 1);
+}
+.navbar-frame .container{
+    flex-direction: column;
+    padding: 23px 0px 14px;
+}
+.navbar-frame .container .nav-top-frame{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.navbar-frame .nav-top-frame .nav-search-frame{
+    width: 651px;
+    display: flex;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 1);;
+}
+.navbar-frame .nav-search-frame .search-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 17px;
+}
+.navbar-frame .search-box .categories{
+    width: 166px;
+    height: 30px;
+
+    border-right: 2px solid rgba(214, 214, 214, 1);
+}
+.navbar-frame .categories select{
+    width: 140px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: rbg(4 30 66);
+    font-family: Jost;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+} 
+.navbar-frame .search-box input{
+    width: 387px;
+    height: 22px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+
+    color: rgba(98, 105, 116, 1);
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.navbar-frame .nav-search-frame .search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 50px;
+
+    border-radius: 0px 6px 6px 0px;
+    background: rgba(245, 195, 75, 1);
+
+}
+.navbar-frame .nav-top-frame .extra-info-right{
+    display: flex;
+    flex-direction: row;
+    width: 416px;
+}
+.navbar-frame .extra-info-right .icon-wishlist{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+
+}
+.navbar-frame .extra-info-right .box-icon-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 50px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+.navbar-frame .box-icon-box img{
+    height: 25px;
+    width: 25px;
+}
+.navbar-frame .icon-wishlist .wishlist-myitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 69px;
+    height: 50px;
+
+    color: rgba(255, 255, 255, 1);
+
+    font-family: "Jost";
+    font-style: Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+    margin-left: 16px;
+
+}
+.navbar-frame .box-icon-box .number{
+    position: absolute;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    right: 0; 
+    font-weight: 700;
+    line-height: 10px;
+
+    background: rgba(245, 195, 75, 1);
+}
+.navbar-frame .container .nav-bott-frame{
+    width: 1320px;
+    height: 50px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.397);
+    margin-top: 20px;
+
+
+}
+.navbar-frame .nav-bott-frame .nav-bott-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    height: 20px;
+
+}
+.navbar-frame .nav-bott-menu .browse-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 185px;
+
+    border-right: 1px solid rgba(214, 214, 214, 1);
+}
+.navbar-frame .browse-box img{
+    width: 20px;
+    height: 18px;
+}
+
+.navbar-frame .browse-box span{
+    color: rgb(255 255 255);
+    font-family: jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+
+    margin-left: 10px;
+}
+.navbar-frame .nav-bott-frame .link-box{
+    width: 670px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+
+    
+}
+.navbar-frame .link-box a{
+    font-family: "Jost";
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 10px;
+
+}
+.navbar-frame .link-box a.title{
+    color: rgba(245, 195, 75, 1);
+}
+.navbar-frame .nav-bott-frame .sorting-menu{
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar-frame .sorting-menu span{
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
