@@ -251,6 +251,55 @@
 
 /* GENERAL CATEGORY TOP  */
 
+/* PAGINATION LOCAL */
+.container .pagination-box{
+    margin-top: 30px ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.container .pagination-box .pagination-main{
+    width: auto;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container .pagination-main .pagination-dot{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+.pagination-main img{
+    cursor: pointer;
+}
+.container .pagination-dot .dot{
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+
+}
+.container .dot div{
+    width: 4px;
+    height: 4px;
+    background: #112137;
+    border-radius: 50%;
+
+}
+
 .home-page{
     display: flex;
     flex-direction: column;
@@ -526,7 +575,7 @@
 .selling-products-frame .container{
     flex-direction: column;
 }
-.container .product-wrapper{
+.selling-products-frame .container .product-wrapper{
     position: relative;
     margin-top: 30px;
     width: 100%;
@@ -538,7 +587,7 @@
 }
 
 
-.product-wrapper .product-boxes{
+.selling-products-frame .product-wrapper .product-boxes{
     position: relative;
     width: 1224px;
     height: 452px;
@@ -546,18 +595,18 @@
     flex-direction: row;
 
 }
-.product-boxes .product-box{
+.selling-products-frame .product-boxes .product-box{
     width: 306px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
-.product-box .product-img-box{
+.selling-products-frame .product-box .product-img-box{
     width: 100%;
     height: 280px;
 }
-.product-img-box .hover-box{
+.selling-products-frame .product-img-box .hover-box{
     width: 100%;
     height: 100%;
     display: none;
@@ -565,7 +614,7 @@
     justify-content: flex-end;
     align-items: center;
 }
-.hover-box button{
+.selling-products-frame .hover-box button{
     width: 260px;
     height: 50px;
     display: flex;
@@ -577,23 +626,23 @@
     box-shadow: 0px 5px 20px rgba(0, 83, 246, 0.1);
     border-radius: 6px;
     margin-bottom: 10px;
+    color: #ffffff;
 }
-.product-img-box:hover .hover-box{
+.selling-products-frame .product-img-box:hover .hover-box{
     display: flex;
     font-family: jost;
     font-style: normal;
     font-size: 15px;
     font-weight: 500;
     line-height: 22px;
-    color: #ffffff;
 }
-.product-box .product-content-box{
+.selling-products-frame .product-box .product-content-box{
     padding: 5px 22px ;
     width: 100%;
     height: auto;
     box-sizing: border-box;
 }
-.product-content-box .product-title{
+.selling-products-frame .product-content-box .product-title{
     font-family: jost;
     font-size: 13px;
     font-weight: 400;
@@ -602,7 +651,7 @@
     text-transform: uppercase;
     color: #626974;
 }
-.product-content-box .product-desc{
+.selling-products-frame .product-content-box .product-desc{
     margin-top: 7px;
     font-family: jost;
     font-style: normal;
@@ -611,18 +660,18 @@
     line-height: 28px;
     color: #041e42;
 }
-.product-content-box .review-box{
+.selling-products-frame .product-content-box .review-box{
     margin-top: 7px ;
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
-.review-box img{
+.selling-products-frame .review-box img{
     margin-right: 5px;
 
 }
-.review-box span{
+.selling-products-frame .review-box span{
     margin-left: 10px;
     font-family: jost;
     font-style: normal;
@@ -631,25 +680,32 @@
     line-height: 22px;
     color: #626974;
 }
-.product-content-box .price-box{
+.selling-products-frame .product-content-box .price-box{
     margin-top: 10px ;
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
-.price-box strong{
+.selling-products-frame .price-box strong{
     margin-left: 10px;
     font-family: jost;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    text-decoration-line: line-through;
     color: #041e42;
 }
-.price-box span{
-
+.selling-products-frame .price-box span{
+    margin-left: 10px;
+    font-family: jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #626974;
+    text-decoration-line: line-through;
 }
+
 
 
