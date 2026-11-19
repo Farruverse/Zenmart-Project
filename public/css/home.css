@@ -217,6 +217,40 @@
 
 /* HEADER */
 
+.container .category-top a{
+    font-family: jost;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    font-style: normal;
+    color: #041e42;
+    text-transform: capitalize;
+
+}
+.container .category-top a:hover{
+    border-bottom: 2px solid #041e42;
+
+} 
+.container .category-top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .category-top span{
+    font-family: jost;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    font-style: normal;
+    color: #041e42;
+    text-transform: capitalize;
+}
+
+/* GENERAL CATEGORY TOP  */
+
 .home-page{
     display: flex;
     flex-direction: column;
@@ -442,33 +476,6 @@
 .shop-category-frame .container{
     flex-direction: column;
 }
-.shop-category-frame .container .category-top{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.shop-category-frame .category-top span{
-    font-family: jost;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 40px;
-    font-style: normal;
-    color: #041e42;
-}
-.shop-category-frame .category-top a{
-    font-family: jost;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 22px;
-    font-style: normal;
-    color: #041e42;
-}
-.shop-category-frame .category-top a:hover{
-    border-bottom: 2px solid #041e42;
-}
 .shop-category-frame .container .category-wrapper{
     margin-top: 30px;
     width: 100%;
@@ -506,6 +513,143 @@
     color: #041e42;
     text-align: center;
 }
+/* SELLING PRODUCTS FRAME */
+.selling-products-frame{
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
 
+}
+.selling-products-frame .container{
+    flex-direction: column;
+}
+.container .product-wrapper{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.product-wrapper .product-boxes{
+    position: relative;
+    width: 1224px;
+    height: 452px;
+    display: flex;
+    flex-direction: row;
+
+}
+.product-boxes .product-box{
+    width: 306px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* cursor: pointer; */
+}
+.product-box .product-img-box{
+    width: 100%;
+    height: 280px;
+}
+.product-img-box .hover-box{
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hover-box button{
+    width: 260px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: #0053f6;
+    box-shadow: 0px 5px 20px rgba(0, 83, 246, 0.1);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.product-img-box:hover .hover-box{
+    display: flex;
+    font-family: jost;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #ffffff;
+}
+.product-box .product-content-box{
+    padding: 5px 22px ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.product-content-box .product-title{
+    font-family: jost;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #626974;
+}
+.product-content-box .product-desc{
+    margin-top: 7px;
+    font-family: jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #041e42;
+}
+.product-content-box .review-box{
+    margin-top: 7px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.review-box img{
+    margin-right: 5px;
+
+}
+.review-box span{
+    margin-left: 10px;
+    font-family: jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #626974;
+}
+.product-content-box .price-box{
+    margin-top: 10px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.price-box strong{
+    margin-left: 10px;
+    font-family: jost;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: #041e42;
+}
+.price-box span{
+
+}
 
 
