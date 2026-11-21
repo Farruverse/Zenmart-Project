@@ -907,5 +907,117 @@
     align-items: center;
 
 }
+/* TOP DEALS FRAME */
+.home-page .top-deals-frame{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 632px;
+    margin-top: 150px;
+    justify-content: center;
+    background: rgb(0, 83, 246);
+    
+}
+.top-deals-frame .container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.top-deals-frame .all-content-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: 1px solid yellowgreen;
 
+}
+.left-content-wrapper{
+    /* margin-top: 100px; */
+    width: 340px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
+.left-content-wrapper .content-top p{
+    margin-bottom: 30px;
+    font-family: jost;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.left-content-wrapper .time-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.time-wrapper .number-box{
+    margin-right: 25px;
+}
+.number-box strong{
+    color: #ffffff;
+    font-family: jost;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.number-box p{
+    font-family: jost;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+}
+.left-content-wrapper a{
+    margin-top: 20px;
+    width: 140px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 1);
+}
+.right-content-wrapper{
+
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 930px;
+    height: 100%;
+}
+.container .right-content-wrapper{
+    width: 930px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.right-content-wrapper .even-product-boxes{
+    position: relative;
+    width: auto;
+    height: auto;;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.even-product-boxes .even-box{
+    margin-right: 8px;
+    width: 205px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px ;
+    background: #ffffff;
+    padding: 5px;
+}
